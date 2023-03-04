@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+               font-family: 'Open Sans', sans-serif;
+               font-size: 18px;
+               line-height: 1.6;
+               color: #333;
+             }
+             h1, h2, h3 {
+               font-family: 'Roboto', sans-serif;
+               font-weight: 700;
+               margin: 0;
+             }
+             h1 {
+               font-size: 3rem;
+               margin-bottom: 0.5rem;
+             }
+             h2 {
+               font-size: 2.5rem;
+               margin-bottom: 1rem;
+             }
+             h3 {
+               font-size: 1.5rem;
+               margin-bottom: 0.5rem;
+             }
+             p {
+               margin-bottom: 1.5rem;
+             }
+             /* Layout */
+             header {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               color:white;
+               background-color: black;
+               padding: 1rem 2rem;
+               position: fixed;
+               top: 0;
+               left: 0;
+               right: 0;
+               z-index: 999;
+               box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+             }
+             nav ul {
+               display: flex;
+               list-style: none;
+               color:white;
+               margin: 0;
+               padding: 0;
+             }
+             nav li {
+               margin-right: 1rem;
+               color:white;
+             }
+             nav a {
+               color: white;
+               text-decoration: none;
+               transition: all 0.3s ease;
+             }
+             nav a:hover {
+               color: #007bff;
+             }
+             main {
+               margin-top: 100px;
+               padding: 2rem;
+             }
+             section {
+               margin-bottom: 3rem;
+             }
+             img {
+               max-width: 100%;
+             }
+             a {
+               color: black;
+               text-decoration: none;
+               transition: all 0.3s ease;
+             }
+             a:hover {
+               color: #0056b3;
+             }
+             form {
+               display: flex;
+               flex-direction: column;
+               margin-top: 2rem;
+             }
+             label {
+               margin-bottom: 0.5rem;
+               font-weight: 600;
+             }
+             input, textarea {
+               padding: 0.5rem;
+               margin-bottom: 1rem;
+               border: 1px solid #ccc;
+               border-radius: 5px;
+               font-family: 'Open Sans', sans-serif;
+               font-size: 14px;
+               transition: all 0.3s ease;
+             }
+             input:focus, textarea:focus {
+               border-color: #007bff;
+               box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+             }
+             button[type="submit"] {
+               padding: 0.5rem;
+               background-color: #007bff;
+               color: #fff;
+               border: none;
+               border-radius: 5px;
+               font-family: 'Open Sans', sans-serif;
+               font-size: 14px;
+               cursor: pointer;
+               transition: all 0.3s ease;
+             }
+             button[type="submit"]:hover {
+               background-color: #0056b3;
+         }
+         /* Media Queries */
+         @media screen and (max-width: 768px) {
+           header {
+             flex-direction: column;
+             align-items: flex-start;
+           }
+           nav ul {
+             flex-direction: column;
+             color:white;
+           }
+           nav li {
+             margin-right: 0;
+             margin-bottom: 0.5rem;
+             color:white;
+           }
+           main {
+             margin-top: 80px;
+           }
+         }
+         .pic {
+         border-radius: 50%;
+         width: 150px;
+         height: 150px;
+         object-fit: cover;
+         margin: 1rem 0;
+         animation: my 5s ease 0s 1 normal forwards;
+       }
+       form {
+        position:relative;
+         bottom: 20px;
+         left: 20px;
+         background-color: black;
+         color: #fff;
+         padding: 10px;
+         border-radius: 5px;
+         box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+       }
+       body {
+         background-image: url('path/to/pattern.png');
+         background-repeat: repeat;
+       }
+       
+       @keyframes my {
+           0% {
+               background-position: left top;
+               background-size: 100%;
+           }
+       
+           100% {
+               background-position: left top;
+               background-size: 150%;
+           }
+       }
+       .social-links {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         }
+         .social-links a {
+           margin: 0 10px;
+         }
+       
+           </style>
+    
+</head>
+<body>
+    <header>
+        <h1 >Sai Teja Kuramdasu</h1>
+        <nav>
+          <ul>
+            <li style="color:white;"><a href="mine.html">Home</a></li>
+            <li style="color:white;"><a href="#projects">Projects</a></li>
+            <li style="color:white;"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="project1">
+            <h2>ENCYBER</h2>
+            <img src="C:\Users\Divya sri\OneDrive\Pictures\encyber.png" alt="Project 1">
+            <p>As a passionate advocate for cybersecurity, I created a website dedicated to raising awareness about cybercrime and its impact on individuals and businesses. Through extensive research and collaboration with experts in the field, I developed a comprehensive resource that provides practical tips and strategies for protecting sensitive information online. The site includes engaging content such as videos, interactive quizzes, and case studies, all designed to educate visitors about the latest cyber threats and best practices for staying safe online. With a strong focus on user experience and accessibility, my website has reached a diverse audience, including students, professionals, and the general public, and has been commended for its clear and informative approach to this critical issue</p>
+            <ul>
+                <li>HTML</li>
+                <li>JAVA SCRIPT</li>
+                <li>CSS</li>
+            </ul>
+            <a href="ENCYBER.TK">View Live Site</a>
+        </section>
+        <section id="project2">
+            <h2>STUDENT ATTENDANCE</h2>
+            <p>As a passionate developer, I created a student attendance app using ReactJS to help teachers and administrators streamline the process of tracking attendance. Leveraging my expertise in ReactJS, I built a user-friendly interface that allows teachers to quickly mark attendance and view attendance records for individual students or classes. I also implemented features such as automatic email notifications to parents when their child is absent and a reporting system that generates attendance reports for school administrators. By incorporating best practices in user experience design and utilizing modern web development tools, my app has been well-received by users and has helped schools save time and resources. Overall, my experience in developing this app has enhanced my skills in ReactJS and provided me with valuable insights into the intersection of technology and education.</p>
+            <ul>
+                <li>REACT JS</li>
+                <li>NODE.JS</li>
+                <li>TAILWINDCSS</li>
+            </ul>
+            <a href="https://github.com/saiteja181/student-attendance">View on GitHub</a>
+    </main>
+</body>
+</html>

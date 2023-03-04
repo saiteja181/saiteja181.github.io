@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <style>
+ body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333;
+      }
+      h1, h2, h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
+      /* Layout */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+        background-color: black;
+        padding: 1rem 2rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        color:white;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        margin-right: 1rem;
+        color:white;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      nav a:hover {
+        color: #007bff;
+      }
+      main {
+        margin-top: 100px;
+        padding: 2rem;
+      }
+      section {
+        margin-bottom: 3rem;
+      }
+      img {
+        max-width: 100%;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      a:hover {
+        color: #0056b3;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+      }
+      label {
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+      input, textarea {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
+      input:focus, textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+      button[type="submit"] {
+        padding: 0.5rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+  }
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    nav ul {
+      flex-direction: column;
+      color:white;
+    }
+    nav li {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+      color:white;
+    }
+    main {
+      margin-top: 80px;
+    }
+  }
+  .pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 1rem 0;
+  animation: my 5s ease 0s 1 normal forwards;
+}
+form {
+ position:relative;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+body {
+  background-image: url('path/to/pattern.png');
+  background-repeat: repeat;
+}
+
+@keyframes my {
+	0% {
+		background-position: left top;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: left top;
+		background-size: 150%;
+	}
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-links a {
+    margin: 0 10px;
+  }
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1 >Sai Teja Kuramdasu</h1>
+        <nav>
+          <ul>
+            <li style="color:white;"><a href="mine.html">Home</a></li>
+            <li style="color:white;"><a href="#projects">Projects</a></li>
+            <li style="color:white;"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+        <h1>About Me </h1>
+      <section>
+        <h3>My Background</h3>
+        <p>
+            Highly motivated and detail-oriented computer science student with a passion for software development and a strong foundation in programming languages such as Python and Java. Seeking a challenging internship opportunity to enhance my skills and contribute to innovative software development projects. Possess excellent problem-solving skills and a proven ability to work effectively in a team environment. Committed to continuous learning and would like to explore the would like to explore the latest technologies as per the industry needs.
+            
+</p>            
+      <section>
+        <h3>My Skills</h3>
+        <ul>
+          <li>Full stack Development</li>
+          <li>Web development</li>
+          <li>Database Management</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>c programming</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Contact Me</h3>
+        <p>If you have any questions or would like to discuss a potential project, please feel free to contact me at:</p>
+        <ul>
+          <li>Email: kuramdasusaiteja@gmail.com</li>
+          <li>Phone: +91 9121945249</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
